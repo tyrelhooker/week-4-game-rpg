@@ -1,0 +1,49 @@
+.startContainer {
+  border: 1px red solid;
+}
+
+#card1 {
+  border: 1px green solid;
+  float: left;
+}
+
+#card2 {
+  border: 1px green solid;
+  float: left;
+}
+
+#card3 {
+  border: 1px green solid;
+  float: left;
+}
+
+#card4 {
+  border: 1px green solid;
+  float: left;
+}
+
+.startContainer:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.playerArea {
+  border: 1px blue solid;
+}
+
+.enemiesArea {
+  border: 1px brown solid;
+}
+
+.fightingCage {
+  border: 1px purple solid;
+}
+
+.attackButton {
+  border: 1px gray solid;
+}
+
+.defenderArea {
+  border: 1px orange solid;
+}
