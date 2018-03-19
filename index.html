@@ -3,42 +3,61 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
     <link rel="reset" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>RPG</title>
   </head>
   <body>
-    <div class="startContainer">
-      <div id="card1">
-        Card One
+    <div class="container">
+      <div class="row">
+        <div class="col-6">
+          <div class="startContainer">
+            <div class="character" id="card1">
+              Card One
+            </div>
+            <div class="character" id="card2">
+              Card Two
+            </div>
+            <div class="character" id="card3">
+              Card Three
+            </div>
+            <div class="character" id="card4">
+              Card Four
+            </div>
+          </div>
+        </div>
       </div>
-      <div id="card2">
-        Card Two
+      <div class="row">
+        <div class="col-6">
+          <div class="playerArea">
+            <h4>Your Character </h4>
+          </div>
+        </div>
       </div>
-      <div id="card3">
-        Card Three
+      <div class="row">
+        <div class="col-6">
+          <div class="enemiesArea">
+            <h4>Enemies Available To Attack</h4>
+          </div>
+        </div>
       </div>
-      <div id="card4">
-        Card Four
+      <div class="row">
+        <div class="col-6">
+          <div class="fightingCage">
+            <div class="attackButton">
+              Attack
+            </div>
+            <div class="defenderArea">
+              <h4>Defender</h4>
+            </div>
+          </div>
+        </div>
       </div>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="assets/javascript/game.js" type="text/javascript" charset="utf-8"></script>
     </div>
-    <div class="playerArea">
-      Your Character
-    </div>
-    <div class="enemiesArea">
-      Enemies Available To Attack
-    </div>
-    <div class="fightingCage">
-      <div class="attackButton">
-        Attack
-      </div>
-      <div class="defenderArea">
-        Defender
-      </div>
-    </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="assets/javascript/game.js" type="text/javascript" charset="utf-8"></script>
-    
   </body>
 </html>
